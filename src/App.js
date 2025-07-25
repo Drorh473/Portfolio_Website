@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Portfolio.css";
+import "./App.css";
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
