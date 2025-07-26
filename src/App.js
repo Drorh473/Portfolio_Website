@@ -5,29 +5,12 @@ export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    try {
-      const isDark =
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches);
-      setDarkMode(isDark);
-    } catch (error) {
-      console.error("Error accessing localStorage:", error);
-    }
+    const isDark = document.body.classList.contains("dark-mode");
+    setDarkMode(isDark);
   }, []);
 
   useEffect(() => {
     document.body.classList.toggle("dark-mode", darkMode);
-    const icon = document.getElementById("theme-icon");
-    if (icon) {
-      icon.classList.toggle("fa-moon", !darkMode);
-      icon.classList.toggle("fa-sun", darkMode);
-    }
-    try {
-      localStorage.theme = darkMode ? "dark" : "light";
-    } catch (error) {
-      console.error("Error setting localStorage:", error);
-    }
   }, [darkMode]);
 
   const toggleDarkMode = () => setDarkMode(!darkMode);
@@ -45,7 +28,7 @@ export default function Portfolio() {
         <div className="hero-background"></div>
         <div className="hero-profile-image">
           <img
-            src="images/protfolioImage.png"
+            src="/Portfolio_website/images/protfolioImage.png"
             alt="Dror Hershcovish"
             className="profile-img"
           />
@@ -97,15 +80,11 @@ export default function Portfolio() {
                   <video
                     className="demo-video"
                     controls
-                    poster="/images/restaurant-thumbnail.jpg"
+                    poster="/Portfolio_website/images/restaurant-thumbnail.jpg"
                   >
                     <source
-                      src="./videos/Restaurant_video.mp4"
+                      src="https://drive.google.com/uc?export=download&id=1-MUQR2M-pEmnomBWe_362aeImYkj0nVU"
                       type="video/mp4"
-                    />
-                    <source
-                      src="/videos/restaurant-demo.webm"
-                      type="video/webm"
                     />
                     Your browser does not support the video tag.
                   </video>
@@ -176,15 +155,11 @@ export default function Portfolio() {
                   <video
                     className="demo-video"
                     controls
-                    poster="/images/football-thumbnail.jpg"
+                    poster="/Portfolio_website/images/football-thumbnail.jpg"
                   >
                     <source
-                      src="./videos/MaccabiReact_video.mp4"
+                      src="https://drive.google.com/uc?export=download&id=18iuyEhD3vP7q9-iAz3erVI8DzayGONFG"
                       type="video/mp4"
-                    />
-                    <source
-                      src="/videos/football-store-demo.webm"
-                      type="video/webm"
                     />
                     Your browser does not support the video tag.
                   </video>
