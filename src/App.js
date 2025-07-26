@@ -100,7 +100,7 @@ export default function Portfolio() {
                     poster="/images/restaurant-thumbnail.jpg"
                   >
                     <source
-                      src="/videos/Restaurant_video.mp4"
+                      src="./videos/Restaurant_video.mp4"
                       type="video/mp4"
                     />
                     <source
@@ -179,7 +179,7 @@ export default function Portfolio() {
                     poster="/images/football-thumbnail.jpg"
                   >
                     <source
-                      src="/videos/MaccabiReact_video.mp4"
+                      src="./videos/MaccabiReact_video.mp4"
                       type="video/mp4"
                     />
                     <source
