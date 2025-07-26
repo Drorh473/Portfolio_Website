@@ -28,7 +28,7 @@ export default function Portfolio() {
         <div className="hero-background"></div>
         <div className="hero-profile-image">
           <img
-            src="/Portfolio_website/images/protfolioImage.png"
+            src="./images/protfolioImage.png"
             alt="Dror Hershcovish"
             className="profile-img"
           />
@@ -78,7 +78,7 @@ export default function Portfolio() {
               <div className="project-layout">
                 <div className="project-demo">
                   <iframe
-                    src="https://drive.google.com/file/d/1-MUQR2M-pEmnomBWe_362aeImYkj0nVU/preview"
+                    src="https://drive.google.com/file/d/18iuyEhD3vP7q9-iAz3erVI8DzayGONFG/preview"
                     width="100%"
                     height="400"
                     allow="autoplay"
@@ -151,7 +151,7 @@ export default function Portfolio() {
                 </div>
                 <div className="project-demo">
                   <iframe
-                    src="https://drive.google.com/file/d/18iuyEhD3vP7q9-iAz3erVI8DzayGONFG/preview"
+                    src="https://drive.google.com/file/d/1-MUQR2M-pEmnomBWe_362aeImYkj0nVU/preview"
                     width="100%"
                     height="400"
                     allow="autoplay"
