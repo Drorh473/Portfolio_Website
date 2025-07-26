@@ -77,17 +77,15 @@ export default function Portfolio() {
             <div className="project-card">
               <div className="project-layout">
                 <div className="project-demo">
-                  <video
+                  <iframe
+                    src="https://drive.google.com/file/d/1-MUQR2M-pEmnomBWe_362aeImYkj0nVU/preview"
+                    width="100%"
+                    height="400"
+                    allow="autoplay"
                     className="demo-video"
-                    controls
-                    poster="/Portfolio_website/images/restaurant-thumbnail.jpg"
-                  >
-                    <source
-                      src="https://drive.google.com/uc?export=download&id=1-MUQR2M-pEmnomBWe_362aeImYkj0nVU"
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
+                    style={{ border: "none" }}
+                    title="Restaurant Ordering System Demo Video"
+                  ></iframe>
                 </div>
                 <div className="project-content">
                   <h3 className="project-title">Restaurant Ordering System</h3>
@@ -152,17 +150,15 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div className="project-demo">
-                  <video
+                  <iframe
+                    src="https://drive.google.com/file/d/18iuyEhD3vP7q9-iAz3erVI8DzayGONFG/preview"
+                    width="100%"
+                    height="400"
+                    allow="autoplay"
                     className="demo-video"
-                    controls
-                    poster="/Portfolio_website/images/football-thumbnail.jpg"
-                  >
-                    <source
-                      src="https://drive.google.com/uc?export=download&id=18iuyEhD3vP7q9-iAz3erVI8DzayGONFG"
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
+                    style={{ border: "none" }}
+                    title="Football Club Store Web Application Demo Video"
+                  ></iframe>
                 </div>
               </div>
             </div>
