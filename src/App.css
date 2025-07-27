@@ -519,7 +519,13 @@ body.dark-mode .skill-name {
 }
 
 /* Responsive Skills */
-@media (max-width: 590px) {
+@media (max-width: 450px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    margin-bottom: 580px;
+  }
+}
+@media (min-width: 450px) and (max-width: 590px) {
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     margin-bottom: 350px;
