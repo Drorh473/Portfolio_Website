@@ -78,7 +78,7 @@ export default function Portfolio() {
               <div className="project-layout">
                 <div className="project-demo">
                   <iframe
-                    src="https://drive.google.com/file/d/1sgWn24oCjFKn-zS-jA584s5l2a4OhRHa/view?usp=sharing"
+                    src="https://drive.google.com/file/d/1sgWn24oCjFKn-zS-jA584s5l2a4OhRHa/preview"
                     width="100%"
                     height="400"
                     allow="autoplay"
@@ -151,7 +151,7 @@ export default function Portfolio() {
                 </div>
                 <div className="project-demo">
                   <iframe
-                    src="https://drive.google.com/file/d/1ke9lkeFIQ1Vag0MQ4SOGX-pgenrLqAd1/view?usp=sharing"
+                    src="https://drive.google.com/file/d/1ke9lkeFIQ1Vag0MQ4SOGX-pgenrLqAd1/preview"
                     width="100%"
                     height="400"
                     allow="autoplay"
