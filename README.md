@@ -119,7 +119,7 @@ GitHub: Drorh473
 LinkedIn: Dror Hershcovish
 
 🎓 About Me
-Software Engineer Graduate at Ort Braude College with a GPA of 87. Passionate about developing innovative solutions and gaining hands-on experience in full-stack development, machine learning, and system design.
+Software Engineer Graduate at Ort Braude College with a GPA of 87 . Passionate about developing innovative solutions and gaining hands-on experience in full-stack development, machine learning, and system design.
 
 📄 License
 This project is open source and available under the MIT License.
