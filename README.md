@@ -12,6 +12,7 @@ Skills Showcase: Dynamic grid displaying technical competencies
 🚀 Live Demo
 View Live Portfolio (Update with your actual URL)
 📋 Projects Featured
+
 1. Restaurant Ordering System
 
 Tech Stack: Java, JavaFX, MySQL, JUnit
@@ -65,19 +66,15 @@ bashnpm start
 Build for production
 bashnpm run build
 
-
 📁 Project Structure
 my_portfolio/
 ├── public/
-│   ├── protfolioImage.jpeg    # Profile photo
-│   ├── videos/                # Project demo videos
-│   │   ├── Restaurant_video.mp4
-│   │   └── MaccabiReact_video.mp4
-│   └── images/                # Thumbnails and assets
+│ ├── protfolioImage.jpeg # Profile photo
+│ └── images/ # Thumbnails and assets
 ├── src/
-│   ├── Portfolio.js           # Main React component
-│   ├── Portfolio.css          # Custom styling
-│   └── index.js              # App entry point
+│ ├── Portfolio.js # Main React component
+│ ├── Portfolio.css # Custom styling
+│ └── index.js # App entry point
 └── package.json
 🎨 Features Implementation
 Dark/Light Mode Toggle
@@ -122,7 +119,7 @@ GitHub: Drorh473
 LinkedIn: Dror Hershcovish
 
 🎓 About Me
-4th Year Software Engineering Student at Ort Braude College with a GPA of 85. Passionate about developing innovative solutions and gaining hands-on experience in full-stack development, machine learning, and system design.
+Software Engineer Graduate at Ort Braude College with a GPA of 87. Passionate about developing innovative solutions and gaining hands-on experience in full-stack development, machine learning, and system design.
 
 📄 License
 This project is open source and available under the MIT License.
@@ -138,7 +135,6 @@ Submit a pull request
 Icons provided by Devicon
 Font Awesome for UI icons
 Design inspiration from modern portfolio trends
-
 
 ⭐ Star this repository if you found it helpful!
 Last updated: January 2025
