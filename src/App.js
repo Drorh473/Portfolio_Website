@@ -151,7 +151,7 @@ export default function Portfolio() {
                 </div>
                 <div className="project-demo">
                   <iframe
-                    src="https://drive.google.com/file/d/1ke9lkeFIQ1Vag0MQ4SOGX-pgenrLqAd1/view?usp=sharing"
+                    src="https://drive.google.com/file/d/1ke9lkeFIQ1Vag0MQ4SOGX-pgenrLqAd1/view?usp=drive_link"
                     width="100%"
                     height="400"
                     allow="autoplay"
