@@ -35,7 +35,7 @@ export default function Portfolio() {
         </div>
         <div className="hero-content">
           <h1 className="hero-title">Dror Hershcovish</h1>
-          <p className="hero-subtitle">4th Year Software Engineering Student</p>
+          <p className="hero-subtitle">Software Engineering Graduate</p>
           <div className="contact-links">
             <a href="mailto:drorh473@gmail.com" className="contact-link">
               <i className="fas fa-envelope"></i>
@@ -55,7 +55,7 @@ export default function Portfolio() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/dror-hershcovish-28813923a/"
+              href="https://www.linkedin.com/in/dror-hershcovish/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-link"
